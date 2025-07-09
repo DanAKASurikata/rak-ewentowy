@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="cz">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Generator /tt</title>
+    <style>
+        body {
+            background-color: rgb(15, 15, 15);
+            color: white;
+            display: grid;
+            grid-template-columns: 10% 40% 40% 10%;
+            grid-template-areas: 'nic main1 main2 darkmode';
+            padding: 15px;
+            border-style: solid;
+            border: 0px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+
+        .pole {
+            border: 3px;
+            border-color: red black black red;
+            border-style: solid;
+            width: 15vw;
+            height: 3vh;
+            text-align: center;
+        }
+
+        .oblastFinal {
+            padding: 5px;
+        }
+
+        .oblastMain {
+            padding-bottom: 3vh;
+        }
+
+        .checkBox {
+            grid-column: 1;
+            text-align: right;
+        }
+        .checkLabel {
+            grid-column: 2;
+            text-align: left;
+        }
+    </style>
+</head>
+
+<body>
+    <div style="text-align: right; grid-column: 4; grid-row: 1;"> <!-- Darkmode -->
+        <div style="padding-bottom: 5px; padding-top: 5px;">
+            <label for="darkmode">Darkmode</label>
+            <input type="checkbox" class="checkBox" name="darkmode" id="darkmode" checked onclick="darkmodeToggle()">
+        </div>
+    </div>
+    <div style="text-align: center; grid-column: 2; grid-row: 1;"> <!-- Hlavní část 1 -->
+        <div class="oblastMain"> <!-- Výběr trasy - importováno z JSONu -->
+            <div class="oblastFinal">
+                <h2>1. Wybierz linię / Zvol trať</h2>
+            </div>
+            <div class="oblastFinal">
+                <select name="trasy" class="pole" id="trasy" onchange="reloadStacje()">
+                    <option value="brak" selected></option>
+                </select>
+            </div>
+        </div>
+        <div class="oblastMain"> <!-- Výběr čisla vlaku -->
+            <div class="oblastFinal">
+                <h2>2. Ustaw numer pociągu / Zadej číslo vlaku</h2>
+            </div>
+            <div class="oblastFinal">
+                <input type="number" class="pole" name="cislo" id="cislo" placeholder="Numer / Číslo">
+            </div>
+        </div>
+    </div>
+    <div style="text-align: center; grid-column: 3; grid-row: 1;"> <!-- Hlavní část 2 -->
+        <div class="oblastMain"> <!-- Výběr počáteční a koncové stanice -->
+            <div class="oblastFinal">
+                <h2>3. Wybierz stacje / Vyber stanice</h2>
+            </div>
+            <div class="oblastFinal">
+                <h3>Początkowa sceneria / Začáteční scenérie</h2>
+            </div>
+            <div class="oblastFinal" style="padding-bottom: 2vh;">
+                <select name="poczatkowa" id="poczatkowa" class="pole">
+                    <option value="brak"></option>
+                </select>
+            </div>
+            <div class="oblastFinal">
+                <h3>Końcowa stacja / Konečná stanice</h2>
+            </div>
+            <div class="oblastFinal">
+                <select name="koncowa" id="koncowa" class="pole">
+                    <option value="brak"></option>
+                </select>
+            </div>
+        </div>
+    </div>
+    <div style="text-align: center; grid-column: 2; grid-row: 3; padding-top: 5vh;"> <!-- Tlačítko a výsledek (tento a další div) --> 
+        <div class="oblastMain"> <!-- Tlačítko pro generaci příkazu -->
+            <div class="oblastFinal">
+                <h2>4. Wygeneruj komend / Vygeneruj příkaz</h2>
+            </div>
+            <div class="oblastFinal">
+                <input value="Generuj komend / Generuj příkaz" class="pole" type="submit" onclick="generuj()">
+            </div>
+        </div>
+    </div>
+    <div style="text-align: center; grid-column: 3; grid-row: 3; padding-top: 5vh;">
+        <div class="oblastMain"> <!-- Výsledný příkaz - pouze výstup -->
+            <div class="oblastFinal">
+                <h2>5. Komend do wklenia / Příkaz pro vložení </h2>
+            </div>
+            <div class="oblastFinal">
+                <input type="text" class="pole" id="vysledek" placeholder="Komend / Příkaz" readonly style="width: 30vw;">
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
