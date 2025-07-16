@@ -114,11 +114,11 @@ function generuj() {
 
     if (smer == 0) {
         for (i = poczatekStacja; i < konecStacja + 1; i++) {
-            trzesc = trzesc + `${stanice[i].SzlakWj},${stanice[i].Nazwa} ${stanice[i].hash},${stanice[i].SzlakWyj};`;
+            trzesc = trzesc + `${stanice[i].SzlakWj},${stanice[i].Nazwa} ${stanice[i].hash}.sc,${stanice[i].SzlakWyj};`;
         }
     } else if (smer = 1) {
         for (i = poczatekStacja; i > konecStacja - 1; i--) {
-            trzesc = trzesc + `${stanice[i].SzlakWyj},${stanice[i].Nazwa} ${stanice[i].hash},${stanice[i].SzlakWj};`;
+            trzesc = trzesc + `${stanice[i].SzlakWyj},${stanice[i].Nazwa} ${stanice[i].hash}.sc,${stanice[i].SzlakWj};`;
         }
     }
 
