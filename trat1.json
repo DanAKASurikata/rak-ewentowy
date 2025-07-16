@@ -3,7 +3,7 @@
     "pocetStanic": 4,
     "trasa": [
         {"SzlakWj": "Br", "Nazwa": "Krnów", "hash": "514beb0c", "SzlakWyj": "MA"},
-        {"SzlakWj": "Kw", "Nazwa": "Miasto Albercice", "hash": "8d8beb4", "SzlakWyj": "KG"}
+        {"SzlakWj": "Kw", "Nazwa": "Miasto Albercice", "hash": "8d8beb4", "SzlakWyj": "KG"},
         {"SzlakWj": "Kr", "Nazwa": "Beznazwa", "hash": "16891f5e", "SzlakWyj": "Ch"},
         {"SzlakWj": "Ck", "Nazwa": "Wilisz", "hash": "af2e9ec7", "SzlakWyj": "Pm"}
     ]
