@@ -2,8 +2,8 @@
     "name": "Krnów - Raki",
     "pocetStanic": 7,
     "trasa": [
-        {"SzlakWj": "Br", "Nazwa": "Krnów", "hash": "98250fd", "SzlakWyj": "MA"},
-        {"SzlakWj": "Kw", "Nazwa": "Miasto Albercice", "hash": "8d8beb45", "SzlakWyj": "KG"},
+        {"SzlakWj": "Br", "Nazwa": "Krnów", "hash": "514beb0c", "SzlakWyj": "MA"},
+        {"SzlakWj": "Kw", "Nazwa": "Miasto Albercice", "hash": "8d8beb4", "SzlakWyj": "KG"},
         {"SzlakWj": "Ry", "Nazwa": "Zgliczyn-Glinki", "hash": "af8d57c6", "SzlakWyj": "Kr"},
         {"SzlakWj": "ZG", "Nazwa": "Krzęcz", "hash": "dd4c0ddd", "SzlakWyj": "Bn"},
         {"SzlakWj": "Kr", "Nazwa": "Beznazwa", "hash": "16891f5e", "SzlakWyj": "Ch"},
