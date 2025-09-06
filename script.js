@@ -12,6 +12,10 @@ let selectedTrat;
 let poczatkowaList = document.getElementById("poczatkowa");
 let koncowaList = document.getElementById("koncowa");
 
+function startAlert() {
+    alert("Witam na sesji!\nJeśli trasa nie wyświetla się, proszę załaduj stronę ponownie, jest to znany błąd systemu\n\nVítej na sesji!\nJestli se nezobrazuje žádná trasa, načti znovu stranu, je to známá chyba")
+}
+
 function updateTrati() {
     for (let i = 0; i < liczbaLinii; i++) {
         fetch(`./trat${i + 1}.json`)
