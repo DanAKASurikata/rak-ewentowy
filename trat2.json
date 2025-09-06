@@ -2,11 +2,12 @@
     "name": "Tomaszów Mazowiecki - Raki",
     "pocetStanic": 8,
     "trasa": [
-        {"SzlakWj": "Br", "Nazwa": "Tomaszów Mazowiecki", "hash": "88c7762b", "SzlakWyj": "Jl"},
+        {"SzlakWj": "Br", "Nazwa": "Tomaszów Mazowiecki", "hash": "6c25f7c8", "SzlakWyj": "Jl"},
         {"SzlakWj": "OP", "Nazwa": "Wielgowo", "hash": "b991de51", "SzlakWyj": "RZ"},
         {"SzlakWj": "Ws", "Nazwa": "Tarnowo Górne", "hash": "7be19ed8", "SzlakWyj": "Sr"},
         {"SzlakWj": "Mi", "Nazwa": "Lutol Suchy", "hash": "4860b3d2", "SzlakWyj": "Zk"},
         {"SzlakWj": "Cz", "Nazwa": "Wilisz", "hash": "55790070", "SzlakWyj": "Pm"},
         {"SzlakWj": "Rtr", "Nazwa": "Raki", "hash": "18a32ae6", "SzlakWyj": "Rtr"}
     ]
+
 }
