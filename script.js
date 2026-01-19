@@ -1,4 +1,4 @@
-let liczbaLinii = 2;
+let liczbaLinii = 1;
 
 
 let trate;

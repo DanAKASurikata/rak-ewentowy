@@ -1,13 +1,12 @@
 {
-    "name": "Krnów - Raki",
-    "pocetStanic": 7,
+    "name": "Raki - Witkograd",
+    "pocetStanic": 6,
     "trasa": [
-        {"SzlakWj": "Br", "Nazwa": "Krnów", "hash": "9df2eeea", "SzlakWyj": "MA"},
-        {"SzlakWj": "Kw", "Nazwa": "Miasto Albercice", "hash": "8d8beb45", "SzlakWyj": "KG"},
-        {"SzlakWj": "Ry", "Nazwa": "Zgliczyn-Glinki", "hash": "af8d57c6", "SzlakWyj": "Kr"},
-        {"SzlakWj": "ZG", "Nazwa": "Krzęcz", "hash": "dd4c0ddd", "SzlakWyj": "Bn"},
-        {"SzlakWj": "Kr", "Nazwa": "Beznazwa", "hash": "16891f5e", "SzlakWyj": "Ch"},
-        {"SzlakWj": "Ck", "Nazwa": "Wilisz", "hash": "55790070", "SzlakWyj": "Pm"},
-        {"SzlakWj": "Rtr", "Nazwa": "Raki", "hash": "18a32ae6", "SzlakWyj": "Rtr"}
+        {"SzlakWj": "Rtr", "Nazwa": "Raki", "hash": "a82e13bb", "SzlakWyj": "Rtr"},
+        {"SzlakWj": "Pm", "Nazwa": "Wilisz", "hash": "0af3dcd1", "SzlakWyj": "Cz"},
+        {"SzlakWj": "Ry", "Nazwa": "Zgliczyn-Glinki", "hash": "3eafdbf6", "SzlakWyj": "Kr"},
+        {"SzlakWj": "ZG", "Nazwa": "Krzęcz", "hash": "3f944998", "SzlakWyj": "Bn"},
+        {"SzlakWj": "Kr", "Nazwa": "Beznazwa", "hash": "1284cc98", "SzlakWyj": "Ch"},
+        {"SzlakWj": "Kr", "Nazwa": "Witkograd", "hash": "ba220ac9", "SzlakWyj": "Ol"}
     ]
 }
